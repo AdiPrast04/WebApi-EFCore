@@ -21,7 +21,7 @@ namespace WebApiLearningAngular04.Models
         [Column(TypeName = "varchar(8)")]
         public string JoinDate { get; set; }
         [Required]
-        [Column(TypeName = "bit(0)")]
+        [Column(TypeName = "bit")]
         public bool IsDeleted { get; set; }
     }
 }
