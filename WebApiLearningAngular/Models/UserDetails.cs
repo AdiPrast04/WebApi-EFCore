@@ -18,8 +18,8 @@ namespace WebApiLearningAngular04.Models
         [Column(TypeName = "varchar(16)")]
         public string UserNumber { get; set; }
         [Required]
-        [Column(TypeName = "varchar(8)")]
-        public string JoinDate { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime JoinDate { get; set; }
         [Required]
         [Column(TypeName = "bit")]
         public bool IsDeleted { get; set; }
