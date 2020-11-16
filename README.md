@@ -1,2 +1,2 @@
-# WebApi-EFCore-Angular
-Learning ASP.NET using EF Core and Angular 7
+# WebApi-EFCore
+Learning ASP.NET using EF Core for Angular 7
