@@ -22,9 +22,9 @@ namespace WebApiEFCoreAngular.Controllers
 
         // GET: api/UserDetails
         [HttpGet]
-        public IEnumerable<UserDetails> GetUserDetails()
+        public async Task<ActionResult<IEnumerable<UserDetails>>> GetUserDetails()
         {
-            return _context.UserDetails;
+            return await _context.UserDetails.ToListAsync();
         }
 
         // GET: api/UserDetails/5
